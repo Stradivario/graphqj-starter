@@ -1,5 +1,5 @@
 {
-  "name": "dada",
+  "name": "@graphqj/starter",
   "scripts": {
     "start": "npx gg"
   },
