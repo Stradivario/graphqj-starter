@@ -1,7 +1,11 @@
 $mode: advanced
 $imports:
   - 💉./app/graph/core/core.module.ts
+
 $directives: ./app/graph/api/directives.ts
+
+# $components:
+#   - 💉./mix/hamburger/client/hamburger.client.module.ts
 
 $externals:
   - map: 🛰
@@ -12,10 +16,7 @@ $externals:
     file: ./app/graph/api/modifiers.ts
   - map: ⌛
     file: ./app/graph/api/time.ts
-# $imports:
-#   - 💉./mix/hamburger/server/hamburger.server.module.ts
-# $components:
-#   - 💉./mix/hamburger/client/hamburger.client.module.ts
+
 
 $types: 💉./app/graph/types.yml
 $args: 💉./app/graph/arguments.yml

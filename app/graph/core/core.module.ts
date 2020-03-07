@@ -3,12 +3,13 @@ import { Module } from "@rxdi/core";
 import { ContextModule } from "./context/context.module";
 import { OpenService } from "@rxdi/hapi";
 import { AfterStarterService } from "@rxdi/core";
-import { take, tap, switchMap, timeout } from "rxjs/operators";
+import { take, tap, switchMap } from "rxjs/operators";
 import { readFile, writeFile } from "fs";
 import { promisify } from "util";
+import { HamburgerServerModule } from '../../../mix/hamburger/server/hamburger.server.module';
 
 @Module({
-  imports: [ContextModule],
+  imports: [ContextModule, HamburgerServerModule],
   providers: [
     {
       provide: "open-browser",
