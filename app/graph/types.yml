@@ -1,13 +1,15 @@
 User:
-  name: String
-  email: String
-  phone: Number
-  arrayOfNumbers: Number[]
+  name: String => {🕵️OnlyAdmin}
+  email: String => {🛰LoggerInterceptor}
+  phone: Number => {🛡️IsLogged}
+  arrayOfNumbers: Number[] => {🕵️OnlyAdmin}
   arrayOfStrings: String[]
-  arrayOfStrings2: String[]
+  createdAt: String => {⌛fromNow}
 
 Views:
   registrator: String
   patient: String
   doctor: String
   aboutwithloading: String
+
+

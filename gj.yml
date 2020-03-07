@@ -1,7 +1,17 @@
 $mode: advanced
 $imports:
   - 💉./app/graph/core/core.module.ts
+$directives: ./app/graph/api/directives.ts
 
+$externals:
+  - map: 🛰
+    file: ./app/graph/api/interceptors.ts
+  - map: 🛡️
+    file: ./app/graph/api/guards.ts
+  - map: 🕵️
+    file: ./app/graph/api/modifiers.ts
+  - map: ⌛
+    file: ./app/graph/api/time.ts
 # $imports:
 #   - 💉./mix/hamburger/server/hamburger.server.module.ts
 # $components:

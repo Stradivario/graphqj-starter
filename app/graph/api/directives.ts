@@ -1,4 +1,5 @@
-import { DirectiveLocation, GraphQLCustomDirective, GraphQLNonNull, GraphQLString } from '@rxdi/graphql';
+import { GraphQLCustomDirective } from '@rxdi/graphql';
+import { DirectiveLocation, GraphQLNonNull, GraphQLString } from 'graphql';
 
 export async function toUppercase() {
   return new GraphQLCustomDirective<string>({
