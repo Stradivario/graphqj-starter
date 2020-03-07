@@ -1,0 +1,19 @@
+{
+  "name": "dada",
+  "scripts": {
+    "start": "npx gg"
+  },
+  "dependencies": {
+    "@rxdi/core": "^0.7.41",
+    "@popeindustries/lit-html-server": "^2.0.0",
+    "@rxdi/graphql": "^0.7.40",
+    "@rxdi/lit-html": "^0.7.42",
+    "@rxdi/hapi": "^0.7.38",
+    "graphql-tag": "^2.10.3",
+    "@rxdi/graphql-client": "^0.7.38",
+    "@rxdi/graphql-pubsub": "^0.7.38"
+  },
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  }
+}

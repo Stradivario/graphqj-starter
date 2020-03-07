@@ -1,0 +1,13 @@
+$mode: advanced
+$imports:
+  - 💉./app/graph/core/core.module.ts
+
+# $imports:
+#   - 💉./mix/hamburger/server/hamburger.server.module.ts
+# $components:
+#   - 💉./mix/hamburger/client/hamburger.client.module.ts
+
+$types: 💉./app/graph/types.yml
+$args: 💉./app/graph/arguments.yml
+$resolvers: 💉./app/graph/resolvers.yml
+$views: 💉./app/views.yml
